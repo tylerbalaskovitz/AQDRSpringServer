@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping
+@RequestMapping("/api") //creates an initial handler and allows for my subcategories to occur
 public class Controller {
 	
 	@GetMapping("/hello")
